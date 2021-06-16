@@ -2,7 +2,7 @@
 
 Current version: 2.1
 
-A Telegram bot that helps you keep track of your stock portfolio with daily notifications, news and technical analysis.
+A Telegram bot (@stonkkk_bot) that helps you keep track of your stock portfolio with daily notifications, news and technical analysis.
 
 ### Key Features
 
