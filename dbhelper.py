@@ -9,7 +9,7 @@ class DBHelper:
         engine = create_engine(conn_str)
         metadata = MetaData(bind = engine)
         global user_tb
-        user_tb = Table('user_watchlist', metadata, autoload = True)
+        user_tb = Table('TABLE_NAME', metadata, autoload = True)
     # add row (ticker and user_id) to database
     def add_item(self, ticker, user_id):
         query = insert(user_tb).values(user_id = user_id, ticker = ticker)
