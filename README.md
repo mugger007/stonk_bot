@@ -17,12 +17,12 @@ Autonomous features (available only if you have a watchlist)
 
 ### Setup
 
-If you wish to create your own version, clone this repo to your enviroment. You will need to insert your unique Telegram Bot Api Token and Heroku App URL in 'bot.py'.
+If you wish to create your own version, clone this repo to your enviroment. You will need to insert your unique Telegram Bot Api Token and Heroku App URL in `bot.py`.
 
-'''
+```python
 TOKEN = 'TELEGRAM_BOT_TOKEN'
 HEROKU_URL = 'HEROKU_APP_URL
-'''
+```
 
 
 
