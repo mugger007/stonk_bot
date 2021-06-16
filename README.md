@@ -26,7 +26,7 @@ TOKEN = 'TELEGRAM_BOT_TOKEN'
 HEROKU_URL = 'HEROKU_APP_URL'
 ```
 
-2. Create a database (and a table within it) using PostgreSQL. There are many ways to do this - check out this [article from Towards Data Science](https://towardsdatascience.com/a-practical-guide-to-getting-set-up-with-postgresql-a1bf37a0cfd7) for a quick guide. The table in the database should have 2 columns: `user_id` (user's unique Telegram ID) and `ticker` (ticker symbol).
+2. Create a database (and a table within it) using PostgreSQL. There are many ways to do this - check out this [article from Towards Data Science](https://towardsdatascience.com/a-practical-guide-to-getting-set-up-with-postgresql-a1bf37a0cfd7) for a quick guide. The table in the database should have 2 columns: `user_id` (user's Telegram ID) and `ticker` (ticker symbol).
 
 3. Obtain the credentials of your database and insert them into `config.py`.
 
