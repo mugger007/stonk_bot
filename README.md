@@ -36,16 +36,16 @@ database = 'DATABASE_ID'
 user = 'USER_ID'
 password = 'PASSWORD'
 ```
-4. You are almost set! Now you just need to deploy it on an external server (in our case, Heroku) so that the bot may run 24/7*. Follow the steps provided in this [article from Towards Data Science](https://towardsdatascience.com/how-to-deploy-a-telegram-bot-using-heroku-for-free-9436f89575d2). In addition to the steps in the aforementioned article, include:
+4. You are almost set! Now you just need to deploy it on an external server (in our case, Heroku) so that the bot may run 24/7*. Follow the steps provided in this [article from Towards Data Science](https://towardsdatascience.com/how-to-deploy-a-telegram-bot-using-heroku-for-free-9436f89575d2). In addition to the steps in the aforementioned article, include these in your terminal:
 
-'''python
+```python
 heroku ps:scale web=1
-'''
-to scale your app to one running dyno, basically meaning you have one server running your app currently, and then include:
+```
+to scale your app to one running dyno, basically meaning you have one server running your app currently.
 
-'''python
+```python
 heroku logs --tail
-'''
+```
 to display current log entries, which would be useful in debugging. 
 
 
