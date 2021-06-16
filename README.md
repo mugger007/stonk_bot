@@ -18,6 +18,8 @@ Autonomous features (available only if you have a watchlist)
 ### Bug/Feature Request
 
 If you find a bug, kindly open an issue 
-[here] (https://github.com/mugger007/stonk-bot/issues/new?assignees=&labels=&template=bug_report.md&title= "Issues") 
+[here] (https://github.com/mugger007/stonk-bot/issues/new?assignees=&labels=&template=bug_report.md&title=) 
 by including your search query and the expected result.
-If you would like to request a new feature, feel free to do so by opening an issue [here] (https://github.com/mugger007/stonk-bot/issues/new?assignees=&labels=&template=feature_request.md&title= "Features").
+If you would like to request a new feature, feel free to do so by opening an issue
+[here] (https://github.com/mugger007/stonk-bot/issues/new?assignees=&labels=&template=feature_request.md&title=)
+.
