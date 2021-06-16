@@ -1,4 +1,4 @@
-# Stonk Bot
+# [Stonk Bot](http://t.me/stonkkk_bot)
 
 Current version: 2.1
 
