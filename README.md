@@ -1,1 +1,1 @@
-# mugger
+# Stonk Bot
