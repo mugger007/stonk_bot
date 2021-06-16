@@ -1,0 +1,5 @@
+host = 'HOST_URL' 
+port = 'PORT_NO'
+database = 'DATABASE_ID'
+user = 'USER_ID'
+password = 'PASSWORD'
