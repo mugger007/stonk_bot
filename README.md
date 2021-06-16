@@ -23,3 +23,4 @@ by including your search query and the expected result.
 If you would like to request a new feature, feel free to do so by opening an issue
 [here] (https://github.com/mugger007/stonk-bot/issues/new?assignees=&labels=&template=feature_request.md&title=)
 .
+You can even [link to Google!](http://google.com)
