@@ -6,7 +6,7 @@ A Telegram bot (@stonkkk_bot) that helps you keep track of your stock portfolio 
 
 ### Key Features
 
-* Get Latest Price (and % Change): obtain the latest price and 1-day percentage change of any US-listed stock, including those in your watchlist
+* Get Latest Price (and % Change): obtain the latest price and 1-day % price change of any US-listed stock, including those in your watchlist
 * Get Latest News: obtain the latest popular news of any US-listed stock, including those in your watchlist
 * Watchlist: view, add or delete any US-listed stock. For Notification and Daily Summary (see below)
 * Technical Analysis: use various popular technical indicators to help in your decision making
