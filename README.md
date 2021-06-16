@@ -4,7 +4,7 @@ Current version: 2.1
 
 A Telegram bot that helps you keep track of your stock portfolio with daily notifications, news and technical analysis.
 
-### Key Features:
+### Key Features
 
 * Get Latest Price (and % Change): obtain the latest price and 1-day percentage change of any US-listed stock, including those in your watchlist
 * Get Latest News: obtain the latest popular news of any US-listed stock, including those in your watchlist
@@ -17,5 +17,5 @@ Autonomous features (available only if you have a watchlist)
 
 ### Bug/Feature Request
 
-If you find a bug, kindly open an issue here by including your search query and the expected result.
-If you would like to request a new feature, feel free to do so by opening an issue here.
+If you find a bug, kindly open an issue [here] (https://github.com/mugger007/stonk-bot/issues/new?assignees=&labels=&template=bug_report.md&title=) by including your search query and the expected result.
+If you would like to request a new feature, feel free to do so by opening an issue [here] (https://github.com/mugger007/stonk-bot/issues/new?assignees=&labels=&template=feature_request.md&title=).
