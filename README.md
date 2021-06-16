@@ -17,13 +17,36 @@ Autonomous features (available only if you have a watchlist)
 
 ### Setup
 
-If you wish to create your own version, clone this repo to your enviroment. You will need to insert your unique Telegram Bot Api Token and Heroku App URL in `bot.py`.
+If you wish to create your own version, clone this repo to your enviroment and follow the steps below.  
+
+1. Obtain your unique Telegram Bot Api Token and Heroku App URL and insert them into `bot.py`.
 
 ```python
 TOKEN = 'TELEGRAM_BOT_TOKEN'
-HEROKU_URL = 'HEROKU_APP_URL
+HEROKU_URL = 'HEROKU_APP_URL'
 ```
+2. Create a database using PostgreSQL. There are many ways to do this - check out this [article from Towards Data Science](https://towardsdatascience.com/a-practical-guide-to-getting-set-up-with-postgresql-a1bf37a0cfd7) for a quick guide. 
 
+3. Obtain the credentials of your database and insert them into `config.py`.
+
+```python
+host = 'HOST_URL' 
+port = 'PORT_NO'
+database = 'DATABASE_ID'
+user = 'USER_ID'
+password = 'PASSWORD'
+```
+4. You are almost set! Now you just need to deploy it on an external server (in our case, Heroku) so that the bot may run 24/7*. Follow the steps provided in this [article from Towards Data Science](https://towardsdatascience.com/how-to-deploy-a-telegram-bot-using-heroku-for-free-9436f89575d2). In addition to the steps in the aforementioned article, include:
+
+'''python
+heroku ps:scale web=1
+'''
+to scale your app to one running dyno, basically meaning you have one server running your app currently, and then include:
+
+'''python
+heroku logs --tail
+'''
+to display current log entries, which would be useful in debugging. 
 
 
 ### Bug/Feature Request
