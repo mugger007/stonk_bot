@@ -15,6 +15,17 @@ Autonomous features (available only if you have a watchlist)
 * Daily Summary: provides the closing price and 1-day % price change for a US-listed stock at the end of day (at 4pm ET) (and maybe some snark remarks)
 * Notification: provides an alert on significant movement(s) based on the available technical indicators for a US-listed stock. E.g. if the stock is overbought or oversold based on the daily RSI (at 12pm and 4pm ET). Intraday (5-min interval) RSI notification is also now available.
 
+### Setup
+
+If you wish to create your own version, clone this repo to your enviroment. You will need to insert your unique Telegram Bot Api Token and Heroku App URL in 'bot.py'.
+
+'''
+TOKEN = 'TELEGRAM_BOT_TOKEN'
+HEROKU_URL = 'HEROKU_APP_URL
+'''
+
+
+
 ### Bug/Feature Request
 
 If you find a bug, kindly open an issue [here](https://github.com/mugger007/stonk-bot/issues/new?assignees=&labels=&template=bug_report.md&title=).
