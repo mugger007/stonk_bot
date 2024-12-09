@@ -26,6 +26,6 @@ six==1.16.0
 SQLAlchemy==1.4.17
 tornado==6.1
 tzlocal==2.1
-urllib3==1.26.4
+urllib3==1.26.5
 yfinance==0.1.59
 zope.interface==5.4.0
